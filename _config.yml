@@ -1,0 +1,44 @@
+---
+title: Trash Opposum
+email: trash@opossum.com
+description: >- 
+  Ode to the little demon that crawled into my trash one night
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://trashopossum.com"
+# twitter_username: jekyllrb
+github_username: urbanquakers
+destination: public
+exclude: 
+  - README.md
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+permalink: ':title'
+highlighter: pygments
+safe: false
+
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+
+
+
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+color-1: '#e74c3c'
+color-2: '##1abc9c'
+color-3: '##1abc9c'
+color-4: '##1abc9c'
+color-5: '##1abc9c'
+color-6: '##1abc9c'
+color-7: '##1abc9c'
+color-8: '##1abc9c'
+
